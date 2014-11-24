@@ -1,0 +1,36 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Children</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+    <ons-col>
+      <section data-ng-controller="ChildrenController" data-ng-init="find()">
+        <div class="list-group">
+          <div data-ng-repeat="child in children" class="list-group-item">
+            <div class="child-list-item" data-ng-click="getChildPage(child._id)">
+              <h4 class="list-group-item-heading" data-ng-bind="child.name"></h4>
+              <form>
+                <div class="naughtymeter">
+                  <span class="naughtymeter">Naughty</span>
+						<span class="naughtymeter naughtymeter-meter">
+							<input type="range" class="range" name="percent" id="percent" min="0" max="100" ng-model="child.percent" value="{{child.percent}}" disabled />
+						</span>
+                  <span class="naughtymeter">Nice</span>
+                </div>
+              </form>
+              <div class="list-group-item-text">Christmas List Count: {{child.list.length}}</div>
+              <div class="list-group-item-text">Elf Notes Count: {{child.notes.length}}</div>
+            </div>
+          </div>
+        </div>
+        <ons-button ng-show="authentication.isElfSignedin()" modifier="dark" class="pull-right" data-ng-click="menu.setMainPage('templates/addchild.html', {closeMenu: true})"><ons-icon icon="fa-plus"><ons-icon icon="fa-child"> Add Child</ons-icon></ons-icon></ons-button>
+      </section>
+    </ons-col>
+  </ons-row>
+</ons-page>

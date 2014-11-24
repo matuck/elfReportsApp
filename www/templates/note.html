@@ -1,0 +1,38 @@
+<ons-page on-device-backbutton="menu.setMainPage('templates/child.html', {closeMenu: true})">
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Children</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+    <ons-col>
+      <section data-ng-controller="ChildrenController">
+        <div class="updatenote">
+          <form class="form-horizontal" data-ng-submit="updatenote()" novalidate>
+            <fieldset>
+              <div class="form-group">
+                <div class="controls">
+                  <div><label><input type="checkbox" data-ng-model="note.good" id="good" class="form-control">Good</label></div>
+                  <div><textarea  style="width: 100%; min-height: 50px; " data-ng-model="note.text" id="note" class="form-control" placeholder="Note" required></textarea></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <ons-button modifier="dark" ng-click="updatenote()">
+                  Update Note
+                </ons-button>
+              </div>
+              <div data-ng-show="error" class="text-danger">
+                <strong data-ng-bind="error"></strong>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+    </ons-col>
+  </ons-row>
+</ons-page>

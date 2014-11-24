@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<title>Elf Reports</title>
+
+	<link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+	<link rel="stylesheet" href="styles/onsen-css-components-blue-basic-theme.css">
+	<link rel="stylesheet" href="styles/app.css"/>
+
+	<script src="lib/onsen/js/angular/angular.js"></script>
+	<script src="lib/onsen/js/angular/angular-touch.js"></script>
+	<script src="lib/onsen/js/angular/angular-resource.min.js"></script>
+	<script src="lib/onsen/js/onsenui.js"></script>
+
+	<script src="cordova.js"></script>
+
+	<script src="js/elfreports-angular.js"></script>
+	<script src="js/elfreports-usercontroller.js"></script>
+	<script src="js/elfreports-childrencontroller.js"></script>
+	<script src="js/elfreports-pagecontroller.js"></script>
+
+</head>
+
+<body>
+
+<ons-page>
+	<ons-toolbar>
+		<div class="center">Elf Reports</div>
+	</ons-toolbar>
+
+	<ons-row style="margin-top: 40px;">
+		<ons-col align="center">
+			<section data-ng-controller="PageController">
+				<h1>Error connecting to server!</h1>
+				<p>
+					<div>An internet connection is required to use this app.  Please check your connection and try again!</div>
+					<div>
+						<ons-button modifier="dark" ng-click="retryconnection()">
+							Retry Connection
+						</ons-button>
+					</div>
+				</p>
+			</section>
+		</ons-col>
+	</ons-row>
+</ons-page>
+</body>
+</html>

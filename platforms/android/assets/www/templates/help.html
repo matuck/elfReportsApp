@@ -1,0 +1,23 @@
+<ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Help</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+    <ons-col>
+      <section data-ng-controller="PageController">
+        <div class="page-header">
+          <div>
+            <h1>Help</h1>
+          </div>
+        </div>
+      </section>
+
+    </ons-col>
+  </ons-row>
+</ons-page>

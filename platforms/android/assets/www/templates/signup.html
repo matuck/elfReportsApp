@@ -1,0 +1,43 @@
+<ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Sign Up</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+    <ons-col>
+      <div ng-controller="UserController">
+        <div data-ng-bind="message" class="error"></div>
+        <form name="userForm" data-ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
+            <div class="form-group">
+              <input type="text" id="email" name="email" class="text-input" ng-model="credentials.email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" id="username" name="username" class="text-input" ng-model="credentials.username" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" name="password" class="text-input" ng-model="credentials.password" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <input type="password" id="elfPassword" name="elfPassword" class="text-input" ng-model="credentials.elfPassword" placeholder="Elf Password">
+            </div>
+            <div class="text-center form-group">
+              <ons-button modifier="dark" ng-click="signup()">
+                <ons-icon icon="fa-edit"> Sign Up</ons-icon>
+              </ons-button>
+              <ons-button modifier="dark" ng-click="setMainPage('templates/signin.html', {closeMenu: true})">
+                <ons-icon icon="fa-sign-in"> Sign In</ons-icon>
+              </ons-button>
+            </div>
+            <div data-ng-show="error" class="text-center text-danger">
+              <strong data-ng-bind="error"></strong>
+            </div>
+        </form>
+      </div>
+    </ons-col>
+  </ons-row>
+</ons-page>

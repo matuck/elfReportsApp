@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.matuckcomputing.elfreports" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Elf Reports</name>
+    <description>
+        Elf reports is a great way to see what your elf has been reporting, if you are naughty or nice, and send your Christmas list to Santa.
+    </description>
+		<!-- Default application icon -->
+	<icon src="www/res/img/icon.png" />
+	<!--
+		Default icon should work, but cordova don't overwrite
+		the default on all densities
+	-->
+	<icon src="www/res/img/icon.png" platform="android" density="ldpi" />
+	<icon src="www/res/img/icon.png" platform="android" density="mdpi" />
+	<icon src="www/res/img/icon.png" platform="android" density="hdpi" />
+	<icon src="www/res/img/icon.png" platform="android" density="xhdpi" />
+    <author email="support@elfreports.com" href="http://www.elfreports.com">
+        Matuck Computing
+    </author>
+    <content src="index.html" />
+	<access origin="http://www.elfreports.com/*" />
+</widget>

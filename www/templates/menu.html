@@ -1,0 +1,46 @@
+      <ons-page modifier="menu-page" on-device-backbutton="menu.closeMenu();">
+      <ons-toolbar modifier="transparent"></ons-toolbar>
+
+      <ons-list data-ng-controller="PageController" class="menu-list">
+        <ons-list-item class="menu-item" ng-click="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+          <ons-icon icon="fa-home"></ons-icon>
+          Home
+        </ons-list-item>
+
+        <ons-list-item data-ng-hide="authentication.isElfSignedin()" class="menu-item" ng-click="menu.setMainPage('templates/elflogin.html', {closeMenu: true})">
+          <ons-icon icon="fa-sign-in"></ons-icon>
+          Elf Login
+        </ons-list-item>
+
+        <ons-list-item data-ng-show="authentication.isElfSignedin()" class="menu-item" ng-controller="UserController" ng-click="elfsignout()">
+          <ons-icon icon="fa-sign-out"></ons-icon>
+          Elf Logout
+        </ons-list-item>
+        <ons-list-item data-ng-hide="authentication.isSignedIn()" class="menu-item" ng-click="menu.setMainPage('templates/signin.html', {closeMenu: true})">
+          <ons-icon icon="fa-sign-in"></ons-icon>
+          Login
+        </ons-list-item>
+
+        <ons-list-item data-ng-show="authentication.isSignedIn()" class="menu-item" ng-controller="UserController" ng-click="signout()">
+          <ons-icon icon="fa-sign-out"></ons-icon>
+          Logout
+        </ons-list-item>
+      </ons-list>
+
+      <br>
+
+      <ons-list class="bottom-menu-list">
+        <ons-list-item class="menu-item" onclick="menu.setMainPage('templates/adoptanelf.html', {closeMenu: true})">
+          <ons-icon icon="fa-plus-square"></ons-icon>
+          Adopt an elf
+        </ons-list-item>
+        <ons-list-item class="menu-item" onclick="window.open('http://www.facebook.com/elfreports', '_system'); menu.toggleMenu();">
+          <ons-icon icon="fa-facebook"></ons-icon>
+          Facebook
+        </ons-list-item>
+        <ons-list-item class="bottom-menu-item" ng-click="menu.setMainPage('templates/help.html', {closeMenu: true})">
+          <ons-icon icon="fa-question"></ons-icon>
+          Help
+        </ons-list-item>
+      </ons-list>
+    </ons-page>

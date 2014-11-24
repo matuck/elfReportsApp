@@ -1,0 +1,26 @@
+<ons-page>
+  <ons-toolbar>
+	<div class="right">
+	  <ons-toolbar-button ng-click="menu.toggle()">
+		<ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+	  </ons-toolbar-button>
+	</div>
+	<div class="center">Elf Reports</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+	<ons-col align="center">
+		<section data-ng-controller="PageController" data-ng-init="entryinit()">
+			<p><img width="250px" height="211px" ng-src="img/elf-christmas-opening.png" /></p>
+			<p>
+				<ons-button modifier="dark" ng-click="menu.setMainPage('templates/signup.html', {closeMenu: true})">
+				<ons-icon icon="fa-edit"> Sign Up</ons-icon>
+				</ons-button>
+				<ons-button modifier="dark" ng-click="menu.setMainPage('templates/signin.html', {closeMenu: true})">
+					<ons-icon icon="fa-sign-in"> Sign In</ons-icon>
+				</ons-button>
+			</p>
+		</section>
+	</ons-col>
+  </ons-row>
+</ons-page>
