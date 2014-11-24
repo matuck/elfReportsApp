@@ -1,0 +1,43 @@
+<ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Adopt</div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 40px;">
+    <ons-col>
+      <section data-ng-controller="PageController">
+        <div class="page-header">
+          <div>
+            <h1>Adopt an Elf</h1>
+          </div>
+        </div>
+        <div>
+          <div>
+            <a href="http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT">
+              <img border="0" src="img/elfshelf1.jpg" >
+              <div>Elf on the Shelf:A Christmas Tradition</div>
+            </a>
+          </div>
+          <div>
+            <a href="http://www.amazon.com/gp/product/B0088260TC/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0088260TC&linkCode=as2&tag=elfreports-20&linkId=3QI2VE2TZXCE5QLP">
+              <img border="0" src="img/elfshelf2.jpg" >
+              <div>The Elf on the Shelf: A Christmas Tradition with Bonus DVD</div>
+            </a>
+          </div>
+          <div>
+            <a href="http://www.amazon.com/gp/product/B0095XOPF4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0095XOPF4&linkCode=as2&tag=elfreports-20&linkId=66NJBYZ7LJ5KYBEK">
+              <img border="0" src="img/elfshelf3.jpg" >
+              <div>The Elf on the Shelf - Girl Elf Edition</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </ons-col>
+  </ons-row>
+</ons-page>

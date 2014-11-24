@@ -1,0 +1,80 @@
+2014-11-24 09:54:55.896 Elf Reports[906:8444] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Data/Application/D6A03C27-F110-4D87-994F-00D72A48159C/Library/Cookies/Cookies.binarycookies
+2014-11-24 09:54:56.352 Elf Reports[906:8444] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-24 09:54:56.353 Elf Reports[906:8444] Multi-tasking -> Device: YES, App: YES
+2014-11-24 09:54:56.403 Elf Reports[906:8444] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-24 09:54:59.566 Elf Reports[906:8444] Resetting plugins due to page load.
+2014-11-24 09:55:00.266 Elf Reports[906:8444] Finished load of: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Bundle/Application/425BF692-A5D7-4559-8C82-4897B0FFF5C4/Elf%20Reports.app/www/index.html
+2014-11-24 09:55:33.487 Elf Reports[906:8444] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:55:38.224 Elf Reports[906:8444] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:55:44.487 Elf Reports[906:8444] THREAD WARNING: ['InAppBrowser'] took '81.989014' ms. Plugin should use a background thread.
+2014-11-24 09:56:53.627 Elf Reports[1142:9997] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Data/Application/08C6208D-041C-405F-ACD7-22A6A1FD38CC/Library/Cookies/Cookies.binarycookies
+2014-11-24 09:56:53.753 Elf Reports[1142:9997] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-24 09:56:53.754 Elf Reports[1142:9997] Multi-tasking -> Device: YES, App: YES
+2014-11-24 09:56:53.758 Elf Reports[1142:9997] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-24 09:56:54.058 Elf Reports[1142:9997] Resetting plugins due to page load.
+2014-11-24 09:56:54.194 Elf Reports[1142:9997] Finished load of: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Bundle/Application/61D1F071-93A7-4E0E-99DF-2F74E2C90227/Elf%20Reports.app/www/index.html
+2014-11-24 09:57:14.574 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:15.355 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:15.555 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:16.652 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:17.172 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:17.387 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:17.596 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:17.795 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:18.003 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:19.531 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:57:19.835 Elf Reports[1142:9997] ERROR whitelist rejection: url='http://www.amazon.com/gp/product/0976990709/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0976990709&linkCode=as2&tag=elfreports-20&linkId=EFGN4BMITP7FEUXT'
+2014-11-24 09:58:37.222 Elf Reports[1142:9997] THREAD WARNING: ['InAppBrowser'] took '50.369873' ms. Plugin should use a background thread.
+2014-11-24 15:03:34.220 Elf Reports[1653:19081] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Data/Application/03CB6177-86D5-46FC-98E9-E14B4F5715C0/Library/Cookies/Cookies.binarycookies
+2014-11-24 15:03:35.164 Elf Reports[1653:19081] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-24 15:03:35.165 Elf Reports[1653:19081] Multi-tasking -> Device: YES, App: YES
+2014-11-24 15:03:35.276 Elf Reports[1653:19081] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-24 15:03:36.604 Elf Reports[1653:19081] Resetting plugins due to page load.
+2014-11-24 15:03:37.161 Elf Reports[1653:19081] Finished load of: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Bundle/Application/961354D3-034A-406A-A596-C8ECED22C158/Elf%20Reports.app/www/index.html
+2014-11-24 15:06:03.380 Elf Reports[1908:20822] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Data/Application/66C2E628-8137-423F-BE15-14115FE4C3F7/Library/Cookies/Cookies.binarycookies
+2014-11-24 15:06:03.480 Elf Reports[1908:20822] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-24 15:06:03.480 Elf Reports[1908:20822] Multi-tasking -> Device: YES, App: YES
+2014-11-24 15:06:03.486 Elf Reports[1908:20822] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-24 15:06:03.822 Elf Reports[1908:20822] Resetting plugins due to page load.
+2014-11-24 15:06:03.985 Elf Reports[1908:20822] Finished load of: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Bundle/Application/7B0E7634-A8FC-4E39-840A-6728BA95B913/Elf%20Reports.app/www/index.html
+2014-11-24 15:22:22.778 Elf Reports[2184:25950] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Data/Application/72F6D7DB-BF9E-430D-ACEA-0BA9EF733E7F/Library/Cookies/Cookies.binarycookies
+2014-11-24 15:22:22.921 Elf Reports[2184:25950] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-24 15:22:22.922 Elf Reports[2184:25950] Multi-tasking -> Device: YES, App: YES
+2014-11-24 15:22:22.937 Elf Reports[2184:25950] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-24 15:22:23.366 Elf Reports[2184:25950] Resetting plugins due to page load.
+2014-11-24 15:22:23.541 Elf Reports[2184:25950] Finished load of: file:///Users/matuck/Library/Developer/CoreSimulator/Devices/980A0535-6C64-44F9-AE2D-CBEEE0D25A36/data/Containers/Bundle/Application/FD052349-27D4-46FA-A021-84F17C9A4232/Elf%20Reports.app/www/index.html

@@ -1,0 +1,87 @@
+.left {
+	text-align: left;
+}
+.page__background {
+	background: url("../img/starrynight-bg.jpg");
+	color: #cccccc;
+}
+.page--menu-page__background {
+	background: url("../img/starrynight-bg.jpg");
+}
+
+.page {
+	color: #cccccc;
+}
+
+a div {
+	color: #cccccc;
+}
+.text-input {
+	width: 100%;
+}
+
+.form-group {
+	padding: 5px;
+}
+.error {
+	color: red;
+}
+
+input[type=range] {
+	border-radius: 20px;
+	background: url('../img/color_gradient.png');
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+input[type=checkbox] {
+	height: 35px;
+	width: 35px;
+	position:relative;
+}
+
+.list-group-item {
+	background-color: transparent;
+	border: 0px;
+	color: #ffffff;
+}
+h4.list-group-item-heading.ng-binding {
+	color: #ffffff;
+}
+a.list-group-item {
+	color: #ffffff;
+}
+a.list-group-item:hover {
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.child-list-item {
+	border: solid 1px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.note {
+	min-height: 50px;
+}
+
+.goodnote {
+	background-color: rgba(0, 255, 0, 0.4);
+}
+
+.badnote {
+	background-color: rgba(255, 50, 0, 0.7);
+}
+fieldset {
+	border: 0px solid;
+}
+
+.button {
+	vertical-align: baseline;
+}
+
+.listitems {
+	padding-bottom: 3px;
+}
+
