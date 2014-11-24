@@ -1,3 +1,3 @@
 # view AndroidManifest.xml #generated:6
--keep class com.matuckcomputing.elfreports.CordovaApp { <init>(...); }
+-keep class com.matuckcomputing.elfreports.ElfReports { <init>(...); }
 

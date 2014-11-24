@@ -1,4 +1,4 @@
-module.controller('PageController', function($scope, $http, Authentication){
+module.controller('PageController', function($scope, $http, Authentication, $window){
   $scope.authentication = Authentication;
 
   $scope.entryinit = function() {
