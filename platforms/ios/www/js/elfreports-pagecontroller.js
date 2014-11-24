@@ -19,4 +19,7 @@ module.controller('PageController', function($scope, $http, Authentication){
           console.log(status);
         });
   };
+  $scope.openlink = function(link) {
+    $window.open(link, '_system');
+  };
 });

@@ -1,4 +1,4 @@
-module.controller('PageController', function($scope, $http, Authentication){
+module.controller('PageController', function($scope, $http, Authentication, $window){
   $scope.authentication = Authentication;
 
   $scope.entryinit = function() {
@@ -18,5 +18,8 @@ module.controller('PageController', function($scope, $http, Authentication){
         }).error(function(data, status, headers, config) {
           console.log(status);
         });
+  };
+  $scope.openlink = function(link) {
+    $window.open(link, '_system');
   };
 });
