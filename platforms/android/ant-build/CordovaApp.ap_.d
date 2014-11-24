@@ -4,10 +4,12 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xxhdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xhdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xhdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xhdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-xhdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-land-hdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-mdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-mdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-mdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-mdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-land-mdpi/screen.png \
@@ -16,10 +18,12 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-land-ldpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/xml/config.xml \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable/icon.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-ldpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/values/strings.xml \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-port-hdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-port-mdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-hdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-hdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-hdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/res/drawable-hdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-port-xhdpi/screen.png \
@@ -27,10 +31,12 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xxhdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xxhdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xhdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xhdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-xhdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-land-hdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-mdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-mdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-mdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-mdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-land-mdpi/screen.png \
@@ -38,9 +44,11 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-port-ldpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-land-ldpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable/icon.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-ldpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-port-hdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-port-mdpi/screen.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-hdpi/ic_action_previous_item.png \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-hdpi/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-hdpi/ic_action_next_item.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/res/drawable-hdpi/ic_action_remove.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/_where-is-www.txt \
@@ -52,6 +60,7 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/cordova_plugins.js \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/img \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/res \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/index.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/cordova.js \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/plugins \
@@ -162,6 +171,8 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/img/amazon_cart_icon.gif \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/img/color_gradient.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/img/elfshelf3.jpg \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/res/img \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/res/img/icon.png \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js \
