@@ -1,7 +1,7 @@
 <ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
   <ons-toolbar>
       <div class="left">
-          <ons-back-button onclick="menu.setMainPage('templates/child.html', {closeMenu: true})">Back</ons-back-button>
+          <ons-toolbar-button ng-click="menu.setMainPage('templates/entry.html', {closeMenu: true})"><ons-icon icon="fa-angle-left">Back</ons-icon></ons-toolbar-button>
       </div>
     <div class="right">
       <ons-toolbar-button ng-click="menu.toggle()">
