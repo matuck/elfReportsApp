@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.matuckcomputing.elfreports" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.matuckcomputing.elfreports" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Elf Reports</name>
     <description>
         Elf reports is a great way to see what your elf has been reporting, if you are naughty or nice, and send your Christmas list to Santa.
