@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>525B547D-50C4-4D35-A2AC-2693420BB537</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Elf Reports</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>317D12AA5A5E31F859F56F682777C8BFB3834E29</key>
+		<string>https://bitbucket.org/matuck/elfreportsapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Elf Reports.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>317D12AA5A5E31F859F56F682777C8BFB3834E29</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/matuck/elfreportsapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>317D12AA5A5E31F859F56F682777C8BFB3834E29</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>317D12AA5A5E31F859F56F682777C8BFB3834E29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>elfreportsapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
