@@ -1,11 +1,19 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes.dex : \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$string.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$integer.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$drawable.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$xml.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$attr.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/CordovaApp.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$InterstitialListener.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$1.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobMediation.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$BannerListener.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/ext/PluginAdapterDelegate.class \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/com/rjfun/cordova/ext/CordovaPluginExt.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/io/cordova/hellocordova/R$string.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/io/cordova/hellocordova/R$drawable.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/io/cordova/hellocordova/R$xml.class \
@@ -28,3 +36,5 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/dexedLibs/google-play-services-77503869e85fc2267ff37d4457d61060.jar \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/ant-build/dexedLibs/cordova-generic-ad-13e9433c2c9cc186648af9b9bdcb62ef.jar \

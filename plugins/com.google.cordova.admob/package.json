@@ -1,0 +1,33 @@
+{
+    "version": "2.3.6",
+    "name": "com.google.cordova.admob",
+    "cordova_name": "AdMob PluginPro with Mediations",
+    "description": "Most Powerful Ad Plugin for Cordova/PhoneGap. Show Ad with single line of JavaScript. Maximize revenue with mediation to AdMob, DoubleClick, iAd, Facebook Audience Network, Flurry, Millennial Media, InMobi, Mobfox, and much more.",
+    "license": "MIT",
+    "repo": "https://github.com/floatinghotpot/cordova-admob-pro.git",
+    "issue": "https://github.com/floatinghotpot/cordova-admob-pro/issues",
+    "keywords": [
+        "rjfun",
+        "ad",
+        "admob",
+        "google",
+        "play",
+        "services",
+        "iad",
+        "flurry",
+        "mmedia",
+        "mobfox",
+        "inmobi",
+        "dfp"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0"
+        }
+    ]
+}

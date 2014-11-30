@@ -22,6 +22,7 @@ module.directive('mytouchend', function() {
       event.stopPropagation();
 
       scope.$apply(attrs.mytouchend);
+      element.unbind();
     });
   };
 });

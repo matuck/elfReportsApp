@@ -1,20 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0f7392-e754-40df-9263-07c42da7f8bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/ElfReports-release-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/ElfReports-release-unsigned.apk.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/ElfReports.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/ant-build/ElfReports.ap_.d" afterPath="" />
+    <list default="true" id="8c0f7392-e754-40df-9263-07c42da7f8bb" name="Default" comment="added ads to be displayed to app.  Fixed issues with slider and the back button.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/wp8/GoogleAds.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/README.zh_cn.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/cocos2dx/TODO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/admob_fillrate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/admob_rpm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android_interstitial.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android_rect.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/any_position.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/cordova-generic-ad-13e9433c2c9cc186648af9b9bdcb62ef.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/libs/cordova-generic-ad.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/android/cordova-generic-ad.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/google-play-services-77503869e85fc2267ff37d4457d61060.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/libs/google-play-services.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/google-play-services.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_interstitial.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_rect.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_skyscraper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/iphone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ad/libCordovaGenericAd.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/ios/libCordovaGenericAd.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/libGoogleAdMobAds.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/libGoogleAdMobAds.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/medium_rect.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/com.google.cordova.admob/www/AdMob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/com.google.cordova.admob/www/AdMob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/www/AdMob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobMediation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/AdMobMediation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/AdMobMediation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/admob/AdMobMediation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/android/AdMobMediation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/AdMobMediation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/AdMobMediation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$BannerListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$InterstitialListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/admob/AdMobPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/android/AdMobPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/CDVAdMobPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/CDVAdMobPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/CDVAdMobPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/CDVAdMobPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/CDVPluginExt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/CDVPluginExt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/CDVPluginExt.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/CDVPluginExt.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ChangeLog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/ext/CordovaPluginExt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/ext/CordovaPluginExt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/android/CordovaPluginExt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPSwipeableBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPSwipeableBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdMobExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdMobExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdNetworkExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdNetworkExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdSize.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdSize.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdSizeDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADAdSizeDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAppEventDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADAppEventDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADBannerViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADBannerViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventBanner.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventBanner.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventBannerDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventBannerDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventExtras.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventInterstitialDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventInterstitialDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInAppPurchase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInAppPurchase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInAppPurchaseDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInAppPurchaseDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInterstitial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInterstitialDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInterstitialDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADModules.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADModules.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADRequestError.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADRequestError.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSearchBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Search/GADSearchBannerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSearchRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Search/GADSearchRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSwipeableBannerViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADSwipeableBannerViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ad/GenericAdPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/ios/GenericAdPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/wp8/GoogleAds.XML" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/ext/PluginAdapterDelegate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/PluginAdapterDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/PluginAdapterDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/ext/PluginAdapterDelegate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/android/PluginAdapterDelegate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$integer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/android/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/jarlist.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/values/version.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/version.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports/Elf Reports-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Elf Reports-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$string.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$xml.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/R.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/children.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/children.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/www/js/elfreports-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-childrencontroller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-childrencontroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-usercontroller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-usercontroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-usercontroller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-usercontroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ElfReportsApp.iws" />
@@ -39,46 +211,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.814816" vertical-offset="50" max-vertical-offset="936">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="child.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/child.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2070">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adoptanelf.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/adoptanelf.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="936">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elfreports-pagecontroller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/elfreports-pagecontroller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-              <caret line="0" column="83" selection-start-line="0" selection-start-column="83" selection-end-line="0" selection-end-column="83" />
+            <state vertical-scroll-proportion="-16.0" vertical-offset="18" max-vertical-offset="2070">
+              <caret line="25" column="129" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -87,27 +224,67 @@
       <file leaf-file-name="elfreports-childrencontroller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/elfreports-childrencontroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="1224">
-              <caret line="147" column="4" selection-start-line="144" selection-start-column="2" selection-end-line="147" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1224">
+              <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
               <folding>
                 <element signature="e#231#276#0" expanded="false" />
                 <element signature="e#317#423#0" expanded="false" />
                 <element signature="e#537#948#0" expanded="false" />
                 <element signature="e#982#1364#0" expanded="false" />
-                <element signature="e#1691#2199#0" expanded="false" />
-                <element signature="e#2233#2676#0" expanded="false" />
-                <element signature="e#2717#2833#0" expanded="false" />
-                <element signature="e#2869#3177#0" expanded="false" />
+                <element signature="e#1692#2200#0" expanded="false" />
+                <element signature="e#2234#2677#0" expanded="false" />
+                <element signature="e#2718#2834#0" expanded="false" />
+                <element signature="e#2870#3178#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/com.google.cordova.admob/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elfreports-angular.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="2016">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029752066" vertical-offset="0" max-vertical-offset="605">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+              <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/help.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="576">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.666667" vertical-offset="180" max-vertical-offset="1458">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,7 +303,7 @@
       <file leaf-file-name="AndroidManifest.xml.d" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml.d">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
               <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -136,19 +313,12 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.cordova.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="414">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <marker date="1417381518920" expanded="true" signature="237:1700" placeholder="..." />
+                <marker date="1417381518920" expanded="true" signature="611:1167" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,15 +332,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/www/js/elfreports-routes.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/templates/noconnection.html" />
         <option value="$PROJECT_DIR$/www/noconnection.html" />
         <option value="$PROJECT_DIR$/www/templates/entry.html" />
-        <option value="$PROJECT_DIR$/www/js/elfreports-childrencontroller.js" />
         <option value="$PROJECT_DIR$/www/js/elfreports-usercontroller.js" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/www/styles/app.css" />
-        <option value="$PROJECT_DIR$/www/templates/child.html" />
         <option value="$PROJECT_DIR$/www/templates/children.html" />
         <option value="$PROJECT_DIR$/www/templates/elflogin.html" />
         <option value="$PROJECT_DIR$/www/templates/addchild.html" />
@@ -178,12 +345,15 @@
         <option value="$PROJECT_DIR$/www/templates/note.html" />
         <option value="$PROJECT_DIR$/www/templates/signin.html" />
         <option value="$PROJECT_DIR$/www/templates/signup.html" />
-        <option value="$PROJECT_DIR$/www/js/elfreports-angular.js" />
         <option value="$PROJECT_DIR$/www/templates/adoptanelf.html" />
         <option value="$PROJECT_DIR$/www/js/elfreports-pagecontroller.js" />
         <option value="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml.d" />
         <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/templates/child.html" />
+        <option value="$PROJECT_DIR$/www/js/elfreports-angular.js" />
+        <option value="$PROJECT_DIR$/www/js/elfreports-childrencontroller.js" />
       </list>
     </option>
   </component>
@@ -222,7 +392,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,11 +438,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,6 +687,36 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElfReportsApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ant-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="matuckcomputing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -493,6 +728,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,28 +831,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25171143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25171143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -638,7 +874,8 @@
     <MESSAGE value="update for back button in titlebar." />
     <MESSAGE value="updates for adopt an elf links to work cross platform" />
     <MESSAGE value="add icon image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add icon image" />
+    <MESSAGE value="added ads to be displayed to app.  Fixed issues with slider and the back button." />
+    <option name="LAST_COMMIT_MESSAGE" value="added ads to be displayed to app.  Fixed issues with slider and the back button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,13 +884,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/children.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="684">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1368">
@@ -691,10 +921,10 @@
             <element signature="e#317#423#0" expanded="false" />
             <element signature="e#537#948#0" expanded="false" />
             <element signature="e#982#1364#0" expanded="false" />
-            <element signature="e#1691#2199#0" expanded="false" />
-            <element signature="e#2233#2676#0" expanded="false" />
-            <element signature="e#2717#2833#0" expanded="false" />
-            <element signature="e#2869#3177#0" expanded="false" />
+            <element signature="e#1692#2200#0" expanded="false" />
+            <element signature="e#2234#2677#0" expanded="false" />
+            <element signature="e#2718#2834#0" expanded="false" />
+            <element signature="e#2870#3178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,8 +934,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1944">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -768,10 +998,10 @@
             <element signature="e#317#423#0" expanded="false" />
             <element signature="e#537#948#0" expanded="false" />
             <element signature="e#982#1364#0" expanded="false" />
-            <element signature="e#1691#2199#0" expanded="false" />
-            <element signature="e#2233#2676#0" expanded="false" />
-            <element signature="e#2717#2833#0" expanded="false" />
-            <element signature="e#2869#3177#0" expanded="false" />
+            <element signature="e#1692#2200#0" expanded="false" />
+            <element signature="e#2234#2677#0" expanded="false" />
+            <element signature="e#2718#2834#0" expanded="false" />
+            <element signature="e#2870#3178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -781,8 +1011,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1980">
           <caret line="32" column="105" selection-start-line="32" selection-start-column="105" selection-end-line="32" selection-end-column="105" />
           <folding>
-            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,13 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="648">
-          <caret line="22" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/elfreports-usercontroller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
@@ -893,13 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/help.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="576">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/children.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="756">
@@ -928,55 +1144,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1998">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.814816" vertical-offset="50" max-vertical-offset="936">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="936">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/child.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2070">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#3;n#div#0;n#section#0;n#ons-col#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/elfreports-childrencontroller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="1224">
-          <caret line="147" column="4" selection-start-line="144" selection-start-column="2" selection-end-line="147" selection-end-column="4" />
-          <folding>
-            <element signature="e#231#276#0" expanded="false" />
-            <element signature="e#317#423#0" expanded="false" />
-            <element signature="e#537#948#0" expanded="false" />
-            <element signature="e#982#1364#0" expanded="false" />
-            <element signature="e#1691#2199#0" expanded="false" />
-            <element signature="e#2233#2676#0" expanded="false" />
-            <element signature="e#2717#2833#0" expanded="false" />
-            <element signature="e#2869#3177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/adoptanelf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="936">
+        <state vertical-scroll-proportion="-25.333334" vertical-offset="36" max-vertical-offset="936">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ons-row#0;n#ons-page#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,7 +1197,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1417381521076" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417381521076" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417381521076" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417381521076" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,16 +1231,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="414">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <marker date="1417381518920" expanded="true" signature="237:1700" placeholder="..." />
+            <marker date="1417381518920" expanded="true" signature="611:1167" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="576">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="180" max-vertical-offset="1458">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="18" max-vertical-offset="2070">
+          <caret line="25" column="129" selection-start-line="25" selection-start-column="119" selection-end-line="25" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/elfreports-childrencontroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1224">
+          <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
+          <folding>
+            <element signature="e#231#276#0" expanded="false" />
+            <element signature="e#317#423#0" expanded="false" />
+            <element signature="e#537#948#0" expanded="false" />
+            <element signature="e#982#1364#0" expanded="false" />
+            <element signature="e#1692#2200#0" expanded="false" />
+            <element signature="e#2234#2677#0" expanded="false" />
+            <element signature="e#2718#2834#0" expanded="false" />
+            <element signature="e#2870#3178#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.google.cordova.admob/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029752066" vertical-offset="0" max-vertical-offset="605">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="2016">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>

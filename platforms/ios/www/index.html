@@ -21,10 +21,55 @@
   <script src="js/elfreports-usercontroller.js"></script>
   <script src="js/elfreports-childrencontroller.js"></script>
   <script src="js/elfreports-pagecontroller.js"></script>
-  
 </head>
 
-<body>
+<body onload="onLoad()">
+<script>
+  function onLoad() {
+    if(( /(ipad|iphone|ipod|android)/i.test(navigator.userAgent) )) {
+      document.addEventListener('deviceready', initApp, false);
+    } else {
+      initApp();
+    }
+  }
+
+  var ad_units = {
+    ios : {
+      banner: 'ca-app-pub-2700174718806679/6063030543', // or DFP format "/6253334/dfp_example_ad"
+      interstitial: 'ca-app-pub-xxx/yyy'
+    },
+    android : {
+      banner: 'ca-app-pub-2700174718806679/5343176946', // or DFP format "/6253334/dfp_example_ad"
+      interstitial: 'ca-app-pub-xxx/kkk'
+    }
+  };
+  // select the right Ad Id according to platform
+  var admobid = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
+
+  function initApp() {
+    if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
+
+    initAd();
+
+    // display the banner at startup
+    createSelectedBanner();
+  }
+
+  function initAd() {
+    if (AdMob) {
+      AdMob.createBanner({
+        adId: admobid.banner,
+        position: AdMob.AD_POSITION.BOTTOM_CENTER,
+        autoShow: true,
+        success: function () {
+        },
+        error: function () {
+          alert('failed to create banner');
+        }
+      });
+    }
+  };
+</script>
     <ons-sliding-menu menu-page="templates/menu.html" main-page="templates/entry.html" side="right" var="menu" type="reveal" max-slide-distance="260px" swipeable="false"></ons-sliding-menu>
 </body>
 </html>

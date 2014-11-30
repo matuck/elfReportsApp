@@ -53,7 +53,7 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
     $scope.child = Children.get({
       childId: $rootScope.childid
     });
-  }
+  };
 
   $scope.removeitem = function(item) {
     var item2 = new Item(item);
@@ -127,9 +127,10 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
   $scope.editnote = function (note) {
     $scope.menu.setMainPage('templates/note.html', {closeMenu: true});
     $rootScope.note = note;
-  }
+  };
 
   $scope.changePercent = function(child) {
+    console.log("boo");
     if(Authentication.isElfSignedin() === false) {
       $scope.menu.setMainPage('templates/entry.html', {closeMenu: true});
     } else {
@@ -143,7 +144,7 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
   };
 
   $scope.amazonlink = function(item) {
-    var url = 'http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=' + item.name + '&tag=elfreports-20'
+    var url = 'http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=' + item.name + '&tag=elfreports-20';
     $window.open(url, '_system');
   };
 });

@@ -1,0 +1,26 @@
+{
+    "version": "1.1.0",
+    "name": "com.rjfun.cordova.ext",
+    "cordova_name": "Cordova Plugin Extension",
+    "description": "Cordova Plugin written based on this interface, can also be used for Unity, Cocos2d-X, and other frameworks",
+    "license": "MIT",
+    "repo": "https://github.com/floatinghotpot/cordova-plugin-ext.git",
+    "issue": "https://github.com/floatinghotpot/cordova-plugin-ext/issues",
+    "keywords": [
+        "cordova",
+        "plugin",
+        "unity",
+        "cocos2dx",
+        "rjfun"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}

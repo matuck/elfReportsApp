@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.rjfun.cordova.ad"
+	version="1.0.5">
+      
+    <name>Generic Ad</name>
+	<description>Generic Ad Plugin common interface and reusable code, as dependency of other RjFun Ad plugins</description>
+	<author>Liming Xie</author>
+	<license>MIT</license>
+	<keywords>ad,rjfun</keywords>
+
+	<engines>
+	    <engine name="cordova" version=">=3.0" />
+	</engines>
+
+	<dependency id="com.rjfun.cordova.ext"/>
+
+    <!-- android -->
+    <platform name="android">
+        <source-file src="src/android/cordova-generic-ad.jar" target-dir="libs" />
+     </platform>
+     
+     <!-- ios -->
+     <platform name="ios">    
+         <header-file src="src/ios/GenericAdPlugin.h"/>
+         <source-file src="src/ios/libCordovaGenericAd.a" framework="true"/>
+	</platform>
+
+</plugin>

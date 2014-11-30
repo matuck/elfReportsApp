@@ -1,12 +1,12 @@
 
-'use strict';
+"use strict";
 var apiurl = 'http://www.elfreports.com';
 //var apiurl = 'http://127.0.0.1:3000';
 var module = angular.module('app', ['onsen', 'ngResource', 'ngTouch']);
 module.run(function($http, $rootScope) {
   if(window.localStorage.getItem('token') !== null &&  window.localStorage.getItem('token') !== 'undefined' && window.localStorage.getItem('token') !== '') {
     $http.defaults.headers.common['x-access-token'] = window.localStorage.getItem('token');
-    $http.defaults.headers.common['authorization'] = window.localStorage.getItem('token');
+    $http.defaults.headers.common.authorization = window.localStorage.getItem('token');
   }
 
 
@@ -21,7 +21,7 @@ module.directive('mytouchend', function() {
       event.preventDefault();
       event.stopPropagation();
 
-      scope.$apply(attrs['mytouchend']);
+      scope.$apply(attrs.mytouchend);
     });
   };
 });
@@ -30,7 +30,7 @@ angular.module("app").config(function($httpProvider) {
   $httpProvider.interceptors.push(function($q) {
     return {
       responseError: function(rejection) {
-        if(rejection.status == 0) {
+        if(rejection.status === 0) {
           window.location = "noconnection.html";
           return;
         }

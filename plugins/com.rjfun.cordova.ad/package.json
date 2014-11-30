@@ -1,0 +1,21 @@
+{
+    "version": "1.0.5",
+    "name": "com.rjfun.cordova.ad",
+    "cordova_name": "Generic Ad",
+    "description": "Generic Ad Plugin common interface and reusable code, as dependency of other RjFun Ad plugins",
+    "license": "MIT",
+    "keywords": [
+        "ad",
+        "rjfun"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0"
+        }
+    ]
+}
