@@ -1,192 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0f7392-e754-40df-9263-07c42da7f8bb" name="Default" comment="added ads to be displayed to app.  Fixed issues with slider and the back button.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/wp8/GoogleAds.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/README.zh_cn.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/cocos2dx/TODO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/admob_fillrate.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/admob_rpm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android_interstitial.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/android_rect.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/any_position.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/cordova-generic-ad-13e9433c2c9cc186648af9b9bdcb62ef.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/libs/cordova-generic-ad.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/android/cordova-generic-ad.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/google-play-services-77503869e85fc2267ff37d4457d61060.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/libs/google-play-services.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/google-play-services.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_interstitial.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_rect.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ipad_skyscraper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/iphone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ad/libCordovaGenericAd.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/ios/libCordovaGenericAd.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/libGoogleAdMobAds.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/libGoogleAdMobAds.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/medium_rect.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/com.google.cordova.admob/www/AdMob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/com.google.cordova.admob/www/AdMob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/www/AdMob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobMediation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/AdMobMediation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/AdMobMediation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/admob/AdMobMediation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/android/AdMobMediation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/AdMobMediation.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/AdMobMediation.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$BannerListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$InterstitialListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/admob/AdMobPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/android/AdMobPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/CDVAdMobPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/CDVAdMobPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.cordova.admob/CDVAdMobPlugin.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/src/ios/CDVAdMobPlugin.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/CDVPluginExt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/CDVPluginExt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/CDVPluginExt.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/CDVPluginExt.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/ChangeLog.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/ext/CordovaPluginExt.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/ext/CordovaPluginExt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/android/CordovaPluginExt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/DFPSwipeableBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/DFPSwipeableBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdMobExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdMobExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdNetworkExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdNetworkExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdSize.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADAdSize.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAdSizeDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADAdSizeDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADAppEventDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADAppEventDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADBannerViewDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADBannerViewDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventBanner.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventBanner.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventBannerDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventBannerDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventExtras.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventInterstitialDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventInterstitialDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADCustomEventRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Mediation/GADCustomEventRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInAppPurchase.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInAppPurchase.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInAppPurchaseDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInAppPurchaseDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInterstitial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADInterstitialDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADInterstitialDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADModules.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADModules.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADRequestError.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/GADRequestError.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSearchBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Search/GADSearchBannerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSearchRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/Search/GADSearchRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.google.admobsdk/GADSwipeableBannerViewDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/Add-ons/DoubleClick/GADSwipeableBannerViewDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ad/GenericAdPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/src/ios/GenericAdPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/wp8/GoogleAds.XML" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/rjfun/cordova/ext/PluginAdapterDelegate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Plugins/com.rjfun.cordova.ext/PluginAdapterDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/ios/PluginAdapterDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/rjfun/cordova/ext/PluginAdapterDelegate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/src/android/PluginAdapterDelegate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/unity/PluginAdapterUnity.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$integer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/android/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/src/ios/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/jarlist.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.admobsdk/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.cordova.admob/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ad/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.rjfun.cordova.ext/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/values/version.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/com.google.playservices/version.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports/Elf Reports-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/Elf Reports-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$string.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$xml.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/R.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/children.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/children.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/children.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/children.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/elfreports-angular.js" afterPath="$PROJECT_DIR$/www/js/elfreports-angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-childrencontroller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-childrencontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-usercontroller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-usercontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-usercontroller.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/elfreports-usercontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+    <list default="true" id="8c0f7392-e754-40df-9263-07c42da7f8bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Elf Reports.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/Elf Reports.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ElfReportsApp.iws" />
@@ -250,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elfreports-angular.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="elfreports-angular.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="2016">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2016">
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
@@ -280,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667" vertical-offset="180" max-vertical-offset="1458">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.8081705" vertical-offset="823" max-vertical-offset="1458">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -350,10 +166,10 @@
         <option value="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml.d" />
         <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/templates/child.html" />
         <option value="$PROJECT_DIR$/www/js/elfreports-angular.js" />
         <option value="$PROJECT_DIR$/www/js/elfreports-childrencontroller.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -826,7 +642,13 @@
       <option name="project" value="LOCAL" />
       <updated>1416865837089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added ads to be displayed to app.  Fixed issues with slider and the back button.">
+      <created>1417381887609</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1417381887609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -835,7 +657,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1248,14 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="180" max-vertical-offset="1458">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/child.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.0" vertical-offset="18" max-vertical-offset="2070">
@@ -1299,8 +1113,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/elfreports-angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="2016">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2016">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8081705" vertical-offset="823" max-vertical-offset="1458">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding />
         </state>
       </provider>
