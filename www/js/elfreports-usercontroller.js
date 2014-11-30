@@ -11,7 +11,7 @@ module.controller('UserController', function($scope, $http, Authentication){
       window.localStorage.setItem('token', data.token);
       $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
       $http.defaults.headers.common['x-access-token'] = data.token;
-      $http.defaults.headers.common['authorization'] = data.token;
+      $http.defaults.headers.common.authorization = data.token;
     }).error(function (data, status, headers, config) {
       $scope.message = data.message;
     });
@@ -27,7 +27,7 @@ module.controller('UserController', function($scope, $http, Authentication){
       $scope.authentication.user = data.user;
       window.localStorage.setItem('token', data.token);
       $http.defaults.headers.common['x-access-token'] = data.token;
-      $http.defaults.headers.common['authorization'] = data.token;
+      $http.defaults.headers.common.authorization = data.token;
       $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
     }).error(function (data, status, headers, config) {
       $scope.message = data.message;
