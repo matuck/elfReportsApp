@@ -11,6 +11,7 @@
   <ons-row style="margin-top: 40px;">
     <ons-col>
       <section data-ng-controller="ChildrenController" data-ng-init="find()">
+        <div ng-if='children.length < 1'>Your elf has not added any children yet.  If you are the elf, please login and add your family's children.</div>
         <div class="list-group">
           <div data-ng-repeat="child in children" class="list-group-item">
             <div class="child-list-item" data-ng-click="getChildPage(child._id)">
