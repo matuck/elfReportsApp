@@ -19,6 +19,15 @@
             <h1>Help</h1>
           </div>
         </div>
+        <div>We thought the easiest way to show you how to use our site is with videos. If your question is not answered by one of the videos below  please send us an email at <a href="mailto:support@elfreports.com">support@elfreports.com</a></div>
+        <div class="public-videos">
+          <p><a ng-click="openlink('http://youtu.be/gimrpuL2Xmk')"><ons-icon icon="fa-play"></ons-icon> How to use Elf Reports mobile</a></p>
+          <p><a ng-click="openlink('http://youtu.be/bDJOsKJaoZU')"><ons-icon icon="fa-play"></ons-icon> Logging in as the elf on Elf Reports mobile</a></p>
+        </div>
+        <div class="elf-vids">The elf help videos are only available if your elf is logged in.</div>
+        <div ng-show="authentication.isElfSignedin()" class="elf-vids">
+          <p><a ng-click="openlink('http://youtu.be/l7OAnm7dgwU')"><ons-icon icon="fa-play"></ons-icon> How to use Elf Reports mobile as Elf</a></p>
+        </div>
       </section>
 
     </ons-col>
