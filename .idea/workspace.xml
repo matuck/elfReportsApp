@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0f7392-e754-40df-9263-07c42da7f8bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-release-unsigned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-release-unsigned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-f478745457447314001597348bee8ef5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes/org/apache/cordova/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/matuckcomputing/elfreports/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-release-unsigned.apk.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/CordovaApp-release-unsigned.apk.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/elfreports-childrencontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/help.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/help.html" afterPath="$PROJECT_DIR$/www/templates/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ElfReportsApp.iws" />
@@ -659,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417381942760</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated help page with links to help videos.">
+      <created>1417483462396</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1417483462396</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -675,7 +682,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25171143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25171143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,7 +716,8 @@
     <MESSAGE value="add icon image" />
     <MESSAGE value="added ads to be displayed to app.  Fixed issues with slider and the back button." />
     <MESSAGE value="removed comment for ads." />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comment for ads." />
+    <MESSAGE value="updated help page with links to help videos." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated help page with links to help videos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,10 +1014,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1417483317093" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417483317093" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417483317093" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417483317093" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483513260" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483513260" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483513260" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483513260" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1042,8 +1050,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="414">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <marker date="1417483314937" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1417483314937" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483508160" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1417483508160" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
