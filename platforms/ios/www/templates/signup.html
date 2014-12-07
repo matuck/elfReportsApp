@@ -32,8 +32,8 @@
               <ons-button modifier="dark" ng-click="signup()">
                 <ons-icon icon="fa-edit"> Sign Up</ons-icon>
               </ons-button>
-              <ons-button modifier="dark" ng-click="setMainPage('templates/signin.html', {closeMenu: true})">
-                <ons-icon icon="fa-sign-in"> Sign In</ons-icon>
+              <ons-button modifier="dark" ng-click="myNavigator.popPage();">
+                <ons-icon icon="fa-ban"> Cancel</ons-icon>
               </ons-button>
             </div>
             <div data-ng-show="error" class="text-center text-danger">

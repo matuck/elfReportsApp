@@ -1,13 +1,15 @@
-module.controller('PageController', function($scope, $http, Authentication, $window){
+module.controller('PageController', function($scope, $http, Authentication, $window, $rootScope){
   $scope.authentication = Authentication;
 
   $scope.entryinit = function() {
     var token = window.localStorage.getItem('token');
     if(token !== undefined && token !== '' && token !== null) {
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
     }
   };
-
+  $scope.setPageTitle = function(title) {
+    $rootScope.pagetitle = title;
+  };
   $scope.retryconnection = function() {
 
     $http.get(apiurl).

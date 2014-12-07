@@ -1,14 +1,5 @@
-<ons-page>
-  <ons-toolbar>
-      <div class="right">
-      <ons-toolbar-button ng-click="menu.toggle()">
-        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
-      </ons-toolbar-button>
-    </div>
-    <div class="center">Elf Reports - Children</div>
-  </ons-toolbar>
-
-  <ons-row style="margin-top: 40px;">
+<ons-page data-ng-controller="PageController" data-ng-init="setPageTitle('Elf Reports - Children');">
+  <ons-row style="margin-top: 50px;">
     <ons-col>
       <section data-ng-controller="ChildrenController" data-ng-init="find()">
         <div ng-if='children.length < 1'>Your elf has not added any children yet.  If you are the elf, please login and add your family's children.</div>

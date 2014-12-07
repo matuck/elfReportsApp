@@ -1,6 +1,16 @@
 .left {
 	text-align: left;
 }
+#menu {
+	position: absolute;
+	right: 0;
+	width: 200px;
+	top: 44px;
+	background: #ffffff;
+	color: #000000;
+	z-index: 10000;
+	display: none;
+}
 .page__background {
 	background: url("../img/starrynight-bg.jpg");
 	color: #cccccc;

@@ -1,7 +1,7 @@
 
 "use strict";
-var apiurl = 'http://www.elfreports.com';
-//var apiurl = 'http://127.0.0.1:3000';
+//var apiurl = 'http://www.elfreports.com';
+var apiurl = 'http://127.0.0.1:3000';
 var module = angular.module('app', ['onsen', 'ngResource', 'ngTouch']);
 module.run(function($http, $rootScope) {
   if(window.localStorage.getItem('token') !== null &&  window.localStorage.getItem('token') !== 'undefined' && window.localStorage.getItem('token') !== '') {

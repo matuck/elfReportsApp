@@ -130,7 +130,6 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
   };
 
   $scope.changePercent = function(child) {
-    console.log("boo");
     if(Authentication.isElfSignedin() === false) {
       $scope.menu.setMainPage('templates/entry.html', {closeMenu: true});
     } else {

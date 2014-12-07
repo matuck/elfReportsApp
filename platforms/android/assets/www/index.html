@@ -70,6 +70,64 @@
     }
   };
 </script>
-    <ons-sliding-menu menu-page="templates/menu.html" main-page="templates/entry.html" side="right" var="menu" type="reveal" max-slide-distance="260px" swipeable="false"></ons-sliding-menu>
+<ons-navigator var="myNavigator" page="templates/entry.html">
+</ons-navigator>
+<ons-toolbar>
+  <div class="right">
+    <ons-toolbar-button onclick="toggle_visibility('menu')">
+      <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+    </ons-toolbar-button>
+  </div>
+  <div class="center" data-ng-bind="pagetitle"></div>
+</ons-toolbar>
+<ons-list data-ng-controller="PageController" id="menu" class="menu-list">
+  <ons-list-item class="menu-item" ng-click="myNavigator.resetToPage('templates/entry.html');">
+    <ons-icon icon="fa-home"></ons-icon>
+    Home
+  </ons-list-item>
+
+  <ons-list-item data-ng-hide="authentication.isElfSignedin()" class="menu-item" ng-click="myNavigator.pushPage('templates/elflogin.html');">
+    <ons-icon icon="fa-sign-in"></ons-icon>
+    Elf Login
+  </ons-list-item>
+
+  <ons-list-item data-ng-show="authentication.isElfSignedin()" class="menu-item" ng-controller="UserController" ng-click="elfsignout()">
+    <ons-icon icon="fa-sign-out"></ons-icon>
+    Elf Logout
+  </ons-list-item>
+  <ons-list-item data-ng-hide="authentication.isSignedIn()" class="menu-item" ng-click="myNavigator.pushPage('templates/signin.html');">
+    <ons-icon icon="fa-sign-in"></ons-icon>
+    Login
+  </ons-list-item>
+
+  <ons-list-item data-ng-show="authentication.isSignedIn()" class="menu-item" ng-controller="UserController" ng-click="signout()">
+    <ons-icon icon="fa-sign-out"></ons-icon>
+    Logout
+  </ons-list-item>
+
+  <ons-list-item class="menu-item" onclick="myNavigator.pushPage('templates/adoptanelf.html');">
+    <ons-icon icon="fa-plus-square"></ons-icon>
+    Adopt an elf
+  </ons-list-item>
+  <ons-list-item class="menu-item" onclick="window.open('http://www.facebook.com/elfreports', '_system');">
+    <ons-icon icon="fa-facebook"></ons-icon>
+    Facebook
+  </ons-list-item>
+  <ons-list-item class="bottom-menu-item" ng-click="myNavigator.pushPage('templates/help.html');">
+    <ons-icon icon="fa-question"></ons-icon>
+    Help
+  </ons-list-item>
+</ons-list>
+<script type="text/javascript">
+  <!--
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if(e.style.display == 'block')
+      e.style.display = 'none';
+    else
+      e.style.display = 'block';
+  }
+  //-->
+</script>
 </body>
 </html>

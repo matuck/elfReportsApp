@@ -1,22 +1,13 @@
-<ons-page>
-  <ons-toolbar>
-	<div class="right">
-	  <ons-toolbar-button ng-click="menu.toggle()">
-		<ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
-	  </ons-toolbar-button>
-	</div>
-	<div class="center">Elf Reports</div>
-  </ons-toolbar>
-
-  <ons-row style="margin-top: 40px;">
+<ons-page data-ng-controller="PageController" data-ng-init="setPageTitle('Elf Reports');">
+  <ons-row style="margin-top: 50px;">
 	<ons-col align="center">
 		<section data-ng-controller="PageController" data-ng-init="entryinit()">
 			<p><img width="250px" height="211px" ng-src="img/elf-christmas-opening.png" /></p>
 			<p>
-				<ons-button modifier="dark" ng-click="menu.setMainPage('templates/signup.html', {closeMenu: true})">
+				<ons-button modifier="dark" ng-click="myNavigator.pushPage('templates/signup.html');">
 				<ons-icon icon="fa-edit"> Sign Up</ons-icon>
 				</ons-button>
-				<ons-button modifier="dark" ng-click="menu.setMainPage('templates/signin.html', {closeMenu: true})">
+				<ons-button modifier="dark" ng-click="myNavigator.pushPage('templates/signin.html');">
 					<ons-icon icon="fa-sign-in"> Sign In</ons-icon>
 				</ons-button>
 			</p>

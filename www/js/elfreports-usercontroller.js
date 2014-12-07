@@ -9,7 +9,7 @@ module.controller('UserController', function($scope, $http, Authentication){
     }).success(function (data, status, headers, config) {
       $scope.authentication.user = data.user;
       window.localStorage.setItem('token', data.token);
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
       $http.defaults.headers.common['x-access-token'] = data.token;
       $http.defaults.headers.common.authorization = data.token;
     }).error(function (data, status, headers, config) {
@@ -28,7 +28,7 @@ module.controller('UserController', function($scope, $http, Authentication){
       window.localStorage.setItem('token', data.token);
       $http.defaults.headers.common['x-access-token'] = data.token;
       $http.defaults.headers.common.authorization = data.token;
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
     }).error(function (data, status, headers, config) {
       $scope.message = data.message;
     });
@@ -36,7 +36,7 @@ module.controller('UserController', function($scope, $http, Authentication){
 
   $scope.signout = function() {
     window.localStorage.removeItem('token');
-    $scope.menu.setMainPage('templates/entry.html', {closeMenu: true});
+    $scope.myNavigator.resetToPage('templates/entry.html');
   };
 
   $scope.elfsignin = function() {
@@ -47,7 +47,7 @@ module.controller('UserController', function($scope, $http, Authentication){
       headers: {'Content-Type': 'application/json'}
     }).success(function (data, status, headers, config) {
       window.localStorage.setItem('elfsignintime', data.elfsignintime);
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
     }).error(function (data, status, headers, config) {
       $scope.message = data.message;
     });
@@ -56,7 +56,7 @@ module.controller('UserController', function($scope, $http, Authentication){
   $scope.elfsignout = function() {
     $http.get(apiurl + '/auth/elfsignout').success(function(response) {
       window.localStorage.removeItem('elfsignintime');
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
     }).error(function(response) {
       console.log('failure');
     });
