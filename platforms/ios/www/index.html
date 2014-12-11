@@ -79,7 +79,7 @@
     Home
   </ons-list-item>
 
-  <ons-list-item data-ng-hide="authentication.isElfSignedin()" class="menu-item" ng-click="myNavigator.pushPage('templates/elflogin.html');">
+  <ons-list-item data-ng-hide="!authentication.isSignedIn() || authentication.isElfSignedin()" class="menu-item" ng-click="myNavigator.pushPage('templates/elflogin.html');">
     <ons-icon icon="fa-sign-in"></ons-icon>
     Elf Login
   </ons-list-item>
@@ -96,6 +96,11 @@
   <ons-list-item data-ng-show="authentication.isSignedIn()" class="menu-item" ng-controller="UserController" ng-click="signout()">
     <ons-icon icon="fa-sign-out"></ons-icon>
     Logout
+  </ons-list-item>
+
+  <ons-list-item data-ng-show="authentication.isSignedIn() && authentication.isElfSignedin()" class="menu-item" ng-controller="UserController" ng-click="myNavigator.pushPage('templates/changepassword.html');">
+    <ons-icon icon="fa-edit"></ons-icon>
+    Change Password
   </ons-list-item>
 
   <ons-list-item class="menu-item" onclick="myNavigator.pushPage('templates/adoptanelf.html');">

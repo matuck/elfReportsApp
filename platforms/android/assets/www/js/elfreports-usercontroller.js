@@ -57,6 +57,23 @@ module.controller('UserController', function($scope, $http, Authentication){
     });
   };
 
+  $scope.ChangeUserPassword = function() {
+    $scope.success = $scope.error = null;
+
+    $http.post(apiurl + '/users/password', $scope.passwordDetails).success(function(response) {
+      // If successful show success message and clear form
+      $scope.success = true;
+      $scope.passwordDetails = null;
+
+      //logout all users
+      window.localStorage.removeItem('token');
+      window.localStorage.removeItem('username');
+      window.localStorage.removeItem('elfsignintime');
+    }).error(function(response) {
+      $scope.error = response.message;
+    });
+  };
+
   $scope.signout = function() {
     window.localStorage.removeItem('token');
     $scope.myNavigator.resetToPage('templates/entry.html');
