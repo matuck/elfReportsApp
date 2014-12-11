@@ -39,8 +39,8 @@
       <file leaf-file-name="elflogin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/templates/elflogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69074494" vertical-offset="0" max-vertical-offset="886">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.751693" vertical-offset="0" max-vertical-offset="886">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -463,7 +463,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418324746672</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated links to the new navigation sytem.  added forgot password links to signin page and elf login page.">
+      <created>1418324761936</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1418324761936</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -918,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/elflogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69074494" vertical-offset="0" max-vertical-offset="886">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.751693" vertical-offset="0" max-vertical-offset="886">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
