@@ -1,5 +1,14 @@
-<ons-page data-ng-controller="PageController" data-ng-init="setPageTitle('Elf Reports');">
-  <ons-row style="margin-top: 50px;">
+<ons-page>
+	<ons-toolbar>
+		<div class="left"><ons-back-button>Back</ons-back-button></div>
+		<div class="right">
+			<ons-toolbar-button onclick="toggle_visibility('menu')">
+				<ons-icon id="menuicon" icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+			</ons-toolbar-button>
+		</div>
+		<div class="center">Elf Reports</div>
+	</ons-toolbar>
+  <ons-row>
 	<ons-col align="center">
 		<section data-ng-controller="PageController" data-ng-init="entryinit()">
 			<p><img width="250px" height="211px" ng-src="img/elf-christmas-opening.png" /></p>

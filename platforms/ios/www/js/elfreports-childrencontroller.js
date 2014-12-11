@@ -6,11 +6,6 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
     $scope.children = Children.query();
   };
 
-  $scope.getChildPage = function (id) {
-    $rootScope.childid = id;
-    $scope.menu.setMainPage('templates/child.html', {closeMenu: true});
-  };
-
   $scope.find = function() {
     $scope.children = Children.query();
   };
@@ -23,10 +18,10 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
           $scope.children.splice(i, 1);
         }
       }
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
     } else {
       $scope.child.$remove(function() {
-        $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+        $scope.myNavigator.resetToPage('templates/children.html');
       });
     }
   };
@@ -39,7 +34,7 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
 
     // Redirect after save
     child.$save(function(response) {
-      $scope.menu.setMainPage('templates/children.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/children.html');
 
       // Clear form fields
       $scope.name = '';
@@ -51,7 +46,7 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
   // Find existing Child
   $scope.findOne = function() {
     $scope.child = Children.get({
-      childId: $rootScope.childid
+      childId: $scope.myNavigator.getCurrentPage().options.child._id
     });
   };
 
@@ -117,7 +112,7 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
 
     note.$update(function() {
       $rootScope.childid = note.child;
-      $scope.menu.setMainPage('templates/child.html', {closeMenu: true});
+      $scope.myNavigator.popPage();
       delete $rootScope.note;
     }, function(errorResponse) {
       $scope.error = errorResponse.data.message;
@@ -125,17 +120,17 @@ module.controller('ChildrenController', function($scope, $http, Authentication, 
   };
 
   $scope.editnote = function (note) {
-    $scope.menu.setMainPage('templates/note.html', {closeMenu: true});
+    $scope.myNavigator.pushPage('templates/note.html');
     $rootScope.note = note;
   };
 
   $scope.changePercent = function(child) {
     if(Authentication.isElfSignedin() === false) {
-      $scope.menu.setMainPage('templates/entry.html', {closeMenu: true});
+      $scope.myNavigator.resetToPage('templates/entry.html');
     } else {
       child.percent = this.child.percent;
       child.$update(function(response) {
-        //$location.path('children/' + child._id);
+        //$location.path('children/' + child._id);s
       }, function(errorResponse) {
         $scope.error = errorResponse.data.message;
       });

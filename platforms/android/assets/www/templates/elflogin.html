@@ -1,17 +1,15 @@
-<ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+<ons-page>
   <ons-toolbar>
-    <div class="left">
-      <ons-toolbar-button ng-click="menu.setMainPage('templates/entry.html', {closeMenu: true})"><ons-icon icon="fa-angle-left">Back</ons-icon></ons-toolbar-button>
-    </div>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
     <div class="right">
-      <ons-toolbar-button ng-click="menu.toggle()">
-        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      <ons-toolbar-button onclick="toggle_visibility('menu')">
+        <ons-icon id="menuicon" icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
     <div class="center">Elf Reports - Elf Sign In</div>
   </ons-toolbar>
 
-  <ons-row style="margin-top: 40px;">
+  <ons-row>
     <ons-col>
       <div ng-controller="UserController">
         <div data-ng-bind="message" class="error"></div>
@@ -23,12 +21,17 @@
             <ons-button modifier="dark" ng-click="elfsignin()">
               <ons-icon icon="fa-sign-in"> Sign In</ons-icon>
             </ons-button>
-            <ons-button modifier="dark" ng-click="menu.setMainPage('templates/children.html', {closeMenu: true})">
+            <ons-button modifier="dark" ng-click="myNavigator.popPage();">
               <ons-icon icon="fa-ban"> Cancel</ons-icon>
             </ons-button>
+            <div><ons-button modifier="dark" ng-click="askForPasswordResetWithLoggedInUser()">Forgot Password</ons-button></div>
+
           </div>
           <div data-ng-show="error" class="text-center text-danger">
-            <strong data-ng-bind="error"></strong>
+            <strong>{{error}}</strong>
+          </div>
+          <div data-ng-show="success" class="text-center text-success">
+            <strong>{{success}}</strong>
           </div>
         </form>
       </div>

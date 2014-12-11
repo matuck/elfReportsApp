@@ -8,6 +8,7 @@ module.controller('UserController', function($scope, $http, Authentication){
       headers: {'Content-Type': 'application/json'}
     }).success(function (data, status, headers, config) {
       $scope.authentication.user = data.user;
+      window.localStorage.setItem('username', data.user.username);
       window.localStorage.setItem('token', data.token);
       $scope.myNavigator.resetToPage('templates/children.html');
       $http.defaults.headers.common['x-access-token'] = data.token;
@@ -25,12 +26,34 @@ module.controller('UserController', function($scope, $http, Authentication){
       headers: {'Content-Type': 'application/json'}
     }).success(function (data, status, headers, config) {
       $scope.authentication.user = data.user;
+      window.localStorage.setItem('username', data.user.username);
       window.localStorage.setItem('token', data.token);
       $http.defaults.headers.common['x-access-token'] = data.token;
       $http.defaults.headers.common.authorization = data.token;
       $scope.myNavigator.resetToPage('templates/children.html');
     }).error(function (data, status, headers, config) {
       $scope.message = data.message;
+    });
+  };
+
+  // Submit forgotten password account id
+  $scope.askForPasswordReset = function() {
+    askForPasswordResetToken($scope.credentials.username);
+  };
+  $scope.askForPasswordResetWithLoggedInUser = function() {
+    askForPasswordResetToken(window.localStorage.getItem('username'));
+  }
+  var askForPasswordResetToken = function(username) {
+    $scope.success = $scope.error = null;
+    $http.post(apiurl + '/auth/forgot', {username: username}).success(function(response) {
+      // Show user success message and clear form
+      $scope.credentials = null;
+      $scope.success = response.message;
+
+    }).error(function(response) {
+      // Show user error message and clear form
+      $scope.credentials = null;
+      $scope.error = response.message;
     });
   };
 

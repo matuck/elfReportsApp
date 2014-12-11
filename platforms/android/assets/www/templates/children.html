@@ -1,16 +1,24 @@
-<ons-page data-ng-controller="PageController" data-ng-init="setPageTitle('Elf Reports - Children');">
-  <ons-row style="margin-top: 50px;">
+<ons-page>
+  <ons-toolbar>
+    <div class="right">
+      <ons-toolbar-button onclick="toggle_visibility('menu')">
+        <ons-icon id="menuicon" icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+    <div class="center">Elf Reports - Children</div>
+  </ons-toolbar>
+  <ons-row>
     <ons-col>
       <section data-ng-controller="ChildrenController" data-ng-init="find()">
         <div ng-if='children.length < 1'>Your elf has not added any children yet.  If you are the elf, please login and add your family's children.</div>
         <div class="list-group">
           <div data-ng-repeat="child in children" class="list-group-item">
-            <div class="child-list-item" data-ng-click="getChildPage(child._id)">
+            <div class="child-list-item" data-ng-click="myNavigator.pushPage('templates/child.html', {child: child});">
               <h4 class="list-group-item-heading" data-ng-bind="child.name"></h4>
               <form>
                 <div class="naughtymeter">
                   <span class="naughtymeter">Naughty</span>
-						<span class="naughtymeter naughtymeter-meter">
+						<span class="naughtymeter naughtymeter-meter">s
 							<input type="range" class="range" name="percent" id="percent" min="0" max="100" ng-model="child.percent" value="{{child.percent}}" disabled />
 						</span>
                   <span class="naughtymeter">Nice</span>
@@ -21,7 +29,7 @@
             </div>
           </div>
         </div>
-        <ons-button ng-show="authentication.isElfSignedin()" modifier="dark" class="pull-right" data-ng-click="menu.setMainPage('templates/addchild.html', {closeMenu: true})"><ons-icon icon="fa-plus"><ons-icon icon="fa-child"> Add Child</ons-icon></ons-icon></ons-button>
+        <ons-button ng-show="authentication.isElfSignedin()" modifier="dark" class="pull-right" data-ng-click="myNavigator.pushPage('templates/addchild.html');"><ons-icon icon="fa-plus"><ons-icon icon="fa-child"> Add Child</ons-icon></ons-icon></ons-button>
       </section>
     </ons-col>
   </ons-row>

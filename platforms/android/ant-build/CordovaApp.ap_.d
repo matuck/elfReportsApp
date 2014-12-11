@@ -159,9 +159,9 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/note.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/signin.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/adoptanelf.html \
-/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/menu.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/signup.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/addchild.html \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/forgotpassword.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/help.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/child.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/entry.html \

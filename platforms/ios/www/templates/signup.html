@@ -1,17 +1,15 @@
-<ons-page on-device-backbutton="menu.setMainPage('templates/entry.html', {closeMenu: true})">
+<ons-page>
   <ons-toolbar>
-    <div class="left">
-      <ons-toolbar-button ng-click="menu.setMainPage('templates/entry.html', {closeMenu: true})"><ons-icon icon="fa-angle-left">Back</ons-icon></ons-toolbar-button>
-    </div>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
     <div class="right">
-      <ons-toolbar-button ng-click="menu.toggle()">
-        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+      <ons-toolbar-button onclick="toggle_visibility('menu')">
+        <ons-icon id="menuicon" icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
     <div class="center">Elf Reports - Sign Up</div>
   </ons-toolbar>
 
-  <ons-row style="margin-top: 40px;">
+  <ons-row>
     <ons-col>
       <div ng-controller="UserController">
         <div data-ng-bind="message" class="error"></div>
