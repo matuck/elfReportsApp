@@ -457,7 +457,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418324730621</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated links to the new navigation sytem.  added forgot password links to signin page and elf login page.">
+      <created>1418324746672</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1418324746672</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
