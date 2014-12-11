@@ -163,6 +163,7 @@
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/addchild.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/forgotpassword.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/help.html \
+/home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/changepassword.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/child.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/templates/entry.html \
 /home/matuck/Documents/projects/ElfReportsApp/platforms/android/assets/www/img/elfshelf2.jpg \
